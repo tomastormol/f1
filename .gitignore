@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# dbt
+f1_dbt/target/
+f1_dbt/dbt_packages/
+f1_dbt/logs/
+
+# Datos (no subir la caché ni los CSVs)
+data/

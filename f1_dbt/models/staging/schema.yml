@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: public
+    database: f1_data
+    schema: public
+    tables:
+      - name: events
+      - name: qualifying
+      - name: race_results
+      - name: laps
