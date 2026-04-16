@@ -51,12 +51,15 @@ dbt run
 ```
 
 ## 📁 Project Structure
+
+```
 ├── src/
-│   └── extract.py          # Extraction pipeline (FastF1 → PostgreSQL)
+│   └── extract.py
 ├── notebooks/
-│   └── 01_explore_fastf1.ipynb  # Data exploration
+│   └── 01_explore_fastf1.ipynb
 ├── f1_dbt/
 │   └── models/
-│       ├── staging/         # Silver layer (cleaned data)
-│       └── mart/            # Gold layer (business metrics)
-└── DEV_NOTES.md            # Technical decisions and learnings
+│       ├── staging/
+│       └── mart/
+└── DEV_NOTES.md
+```
